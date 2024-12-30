@@ -1,0 +1,10 @@
+version: "2.29.7"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ahmedsakr98/first-angular-docker-compose:jenkins
+    ports:
+      - "80:80"
