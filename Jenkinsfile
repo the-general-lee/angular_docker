@@ -1,5 +1,5 @@
 pipeline {
-    agent {label 'nodejs'}
+    agent {label 'angular'}
 
     stages {
          stage('Test Cases') {
