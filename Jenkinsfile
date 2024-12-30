@@ -7,6 +7,7 @@ pipeline {
                 echo 'Running npm tests...'
                 script {
                     // Run npm test
+                    sh "npm install"
                     sh "npm run build"
                     sh "npm test"
                 }
